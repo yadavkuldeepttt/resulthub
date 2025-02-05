@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from 'react';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/Button';
 
 const HeroSection = () => {
   const [isHovered, setIsHovered] = useState(false);
