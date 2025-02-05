@@ -12,7 +12,6 @@ import {
 } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import {
   Bell,
   Timer,
@@ -27,6 +26,7 @@ import {
 } from "lucide-react";
 import HeroSection from "@/components/layout/home/heroSection";
 import FastResultSection from "@/components/layout/home/fastResultSection";
+import { Button } from "@/components/ui/Button";
 
 const HomeSection = () => {
   const [selectedTab, setSelectedTab] = useState("all");
