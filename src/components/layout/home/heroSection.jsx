@@ -20,11 +20,12 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-black/70 opacity-80"></div>
       <div className="flex items-center justify-center h-full max-w-7xl mx-auto px-4 text-center text-white relative z-10">
         <div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Live Results Platform
-          </h1>
-          <p className="text-xl mb-8 text-indigo-100">
-            Get instant access to live results and updates
+          <h1 className="text-2xl md:text-4xl uppercase tracking-[0.05rem] font-bold mb-6">
+          satta matka 143satta guessing          </h1>
+          <p className=" text-xs md:text-sm px-3 tracking-[0.05rem] text-center mb-8 text-indigo-100">
+          143sattamatka is a leading Satta Matka result & best guessing website, and it is most visited  Satta website where you  get latest Info about Matka Satta.
+
+
           </p>
           <div className="flex gap-4 justify-center">
             <Button variant="secondary" size="lg">

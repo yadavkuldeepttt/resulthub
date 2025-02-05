@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-         <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+         <div className="min-h-screen overflow-y-auto bg-gray-50 dark:bg-gray-900">
     <Navbar />
     <main className="pt-16 pb-16">
       <div className="mx-auto">
