@@ -1,0 +1,146 @@
+{
+    "games": [
+      {
+        "id": 1,
+        "name": "Chess Master",
+        "description": "Strategic board game",
+        "upvotes": 150,
+        "maxSessionLength": 120,
+        "isActive": true,
+        "currentPlayers": 25,
+        "sessionsYesterday": 85,
+        "playersYesterday": 120
+      },
+      {
+        "id": 2,
+        "name": "Speed Racing",
+        "description": "Fast-paced racing game",
+        "upvotes": 200,
+        "maxSessionLength": 45,
+        "isActive": true,
+        "currentPlayers": 40,
+        "sessionsYesterday": 150,
+        "playersYesterday": 180
+      },
+      {
+        "id": 3,
+        "name": "Puzzle Quest",
+        "description": "Brain teasing puzzles",
+        "upvotes": 175,
+        "maxSessionLength": 60,
+        "isActive": true,
+        "currentPlayers": 30,
+        "sessionsYesterday": 95,
+        "playersYesterday": 140
+      },
+      {
+        "id": 4,
+        "name": "Adventure World",
+        "description": "Epic adventure game",
+        "upvotes": 250,
+        "maxSessionLength": 180,
+        "isActive": true,
+        "currentPlayers": 50,
+        "sessionsYesterday": 120,
+        "playersYesterday": 160
+      },
+      {
+        "id": 5,
+        "name": "Space Explorers",
+        "description": "Space exploration game",
+        "upvotes": 180,
+        "maxSessionLength": 90,
+        "isActive": true,
+        "currentPlayers": 35,
+        "sessionsYesterday": 100,
+        "playersYesterday": 130
+      }
+    ],
+    "contestants": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "scores": [
+          {
+            "gameId": 1,
+            "score": 850,
+            "timestamp": "2025-02-11T14:30:00Z"
+          },
+          {
+            "gameId": 2,
+            "score": 720,
+            "timestamp": "2025-02-11T16:45:00Z"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "scores": [
+          {
+            "gameId": 1,
+            "score": 920,
+            "timestamp": "2025-02-11T15:20:00Z"
+          },
+          {
+            "gameId": 3,
+            "score": 650,
+            "timestamp": "2025-02-11T17:10:00Z"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Mike Johnson",
+        "email": "mike@example.com",
+        "scores": [
+          {
+            "gameId": 2,
+            "score": 880,
+            "timestamp": "2025-02-11T18:00:00Z"
+          },
+          {
+            "gameId": 4,
+            "score": 750,
+            "timestamp": "2025-02-11T19:30:00Z"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Sarah Wilson",
+        "email": "sarah@example.com",
+        "scores": [
+          {
+            "gameId": 3,
+            "score": 800,
+            "timestamp": "2025-02-11T20:15:00Z"
+          },
+          {
+            "gameId": 5,
+            "score": 690,
+            "timestamp": "2025-02-11T21:45:00Z"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Tom Brown",
+        "email": "tom@example.com",
+        "scores": [
+          {
+            "gameId": 4,
+            "score": 930,
+            "timestamp": "2025-02-11T22:30:00Z"
+          },
+          {
+            "gameId": 5,
+            "score": 870,
+            "timestamp": "2025-02-11T23:45:00Z"
+          }
+        ]
+      }
+    ]
+  }
