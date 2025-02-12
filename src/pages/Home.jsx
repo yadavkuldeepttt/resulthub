@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import GamesList from "../components/GameList";
 import Leaderboard from "../components/Leaderboard";
 import PopularityBoard from "../components/PopularityBoard";
 import ContestantManager from "../components/ContestantManager";
